@@ -29,7 +29,7 @@ jobs:
         run: npx cypress run
 
       - name: Debug - Check Report content
-        run: cat /home/runner/work/counter/counter/cypress/results/mochawesome.html || true
+        run: cat /home/runner/work/counterApp/counterApp/cypress/results/mochawesome.html || true
 
       - name: Upload Cypress Mochawesome HTML Report
         uses: actions/upload-artifact@v4
