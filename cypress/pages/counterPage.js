@@ -10,4 +10,8 @@ export class CounterPage {
     clickIncrement() {
       cy.get('#increment-btn').click();
     }
+
+    clickDecrement() {
+      cy.get('#decrement-btn').click();
+    }
   }
