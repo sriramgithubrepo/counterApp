@@ -31,6 +31,6 @@ All code should be on Github, the GH runner should have had at least one seccess
 2. For complex project having a base class would be ideal
 
 ### Steps to Run Cypress
-1. To run locally in headless mode `npx cypress run` 
-2. To run locally in headed mode `npx cypress run --headed`
+1. Checkout the project, run `npm install` and run `npx cypress run` to run locally in headless mode 
+2. Checkout the project, run `npm install` and run `npx cypress run --headed` to run locally in headed mode
 3. After execution in github actions, the report can be downloaded, and after extracting the results can be viewed
