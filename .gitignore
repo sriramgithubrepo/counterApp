@@ -1,2 +1,6 @@
 # dependencies
 node_modules/
+
+# report files
+cypress/results
+cypress/screenshots
