@@ -24,3 +24,13 @@ All code should be on Github, the GH runner should have had at least one seccess
    ```bash
    npx http-server -p 3000
    ```
+
+### Approach
+
+1. Implemented with POM design pattern and have used actions like click directly since its a mini project
+2. For complex project having a base class would be ideal
+
+### Steps to Run Cypress
+1. To run locally in headless mode `npx cypress run` 
+2. To run locally in headed mode `npx cypress run --headed`
+3. After execution in github actions, the report can be downloaded, and after extracting the results can be viewed
